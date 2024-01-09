@@ -1,0 +1,152 @@
+
+/* mise en page global du site */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* mise en page de la barre de navigation avec le menu */
+nav{
+    background-color: white;
+    margin: 1% 1%;
+    padding: auto;
+}
+
+/* mise en page des listes dans le menu */
+.menu li{
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+/* mise en page de la brillance des liens dans le menu */
+.menu li a{
+    text-decoration: none;
+    color: rgb(16, 11, 5);
+}
+
+/* brillance des liens du menu */
+ul li a:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+/* mise en page du fond pour la section d'entrée */
+.firstpage{
+    background-image: url(https://images.unsplash.com/photo-1468164016595-6108e4c60c8b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* mise en page du texte sous la vidéo dans la première page, juste au dessus de l'ancre : "entrez..." */
+.firstpage p{
+    text-align: center;
+    color: white;
+}
+
+/* mise en page des liens du texte sous la vidéo dans la première page, juste au dessus de l'ancre : "entrez..." */
+.firstpage .lien{
+    color: white;
+}
+
+/* brillance des liens/ancre */
+section a:hover{
+    color: gray;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/* mise en page du titre "Top 10..." */
+h1{
+    color: white;
+    text-align: center;
+    padding: 2em;
+    font-size: 3em;
+}
+
+/* mise en page de la vidéo */
+#video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* mise en page ancre V */
+section .ancre{
+    text-decoration: none;
+    color: white;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 30%;
+    padding: 0.4em;
+    border: solid 2px white !important;
+    border-radius: 30px;
+    font-family: sans-serif;
+}
+
+/* mise en page de "Les différents styles de musiques" */
+.titrestyles{
+    text-align: center;
+}
+
+/* mise en page du texte de "Les différents styles de musiques" */
+.styles{
+    background-color: white;
+    padding: 1%;
+    margin: 1%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+
+/* mise en page du footer, fond */
+footer{
+    background-image: url(https://images.unsplash.com/photo-1605731414532-6b26976cc153?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=hosein-zanbori-wvbOWcIDuYg-unsplash.jpg);
+    background-size: 100% 100%;
+    margin: auto;
+    padding: auto;
+}
+
+/* mise ne page de la video dans le footer */
+#videofin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.1em solid white;
+}
+
+
+/* bande du créeateur du site */
+.bandefin{
+    color: grey;
+    background-color: rgb(30, 30, 30);
+    padding: 0.1px 0.1px 0.1px 1250px;
+}
+
+/* mise en page du paragraphe dans le footer */
+footer p{
+    padding: auto;
+    font-family: Optima, sans-serif;
+    font-size: small;
+
+}
+
+/* complément css pour l'animation en javascript */
+.title {
+    text-align: center;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* Permet de donner la forme que possède la figure qui bouge en lien avec la souris */
+  .circle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    /* border-radius: 50%; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+
+
